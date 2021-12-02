@@ -52,7 +52,7 @@ function toggleDropdown(e) {
 // On hover
 const dropdownCheck = document.querySelector('.dropdown');
 
-if (dropdownCheck !== null) { 
+if (dropdownCheck !== null) {
 	document.querySelector(".dropdown").addEventListener("mouseleave", toggleDropdown);
 	document.querySelector(".dropdown").addEventListener("mouseover", toggleDropdown);
 
@@ -69,7 +69,7 @@ if (dropdownCheck !== null) {
 		}
 	});
 }
-  
+
 
 /* Card Slider - Swiper */
 var cardSlider = new Swiper('.card-slider', {
