@@ -1058,7 +1058,7 @@ a:hover {
 }
 
 .footer .footer-col.third .fa-stack:hover .fa-stack-2x {
-    color: #7dc22b;
+    color: #FFB703;
 }
 
 .footer .footer-col.third .fa-stack:hover .fa-stack-1x {
@@ -1277,7 +1277,7 @@ a:hover {
 	.navbar.top-nav-collapse {
 		padding-top: 0.5rem;
 		padding-bottom: 0.5rem;
-		background-color: #023047;
+		background-color: #1f3832;
 		box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.025);
 	}
 
