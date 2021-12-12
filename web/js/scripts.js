@@ -111,3 +111,23 @@ searchButton.addEventListener('click', () => {
   const inputValue = searchInput.value;
   alert(inputValue);
 });
+
+document.addEventListener("DOMContentLoaded", function(event) {
+
+//cart stuff
+const cartButtons = document.querySelectorAll('.cart-button');
+
+cartButtons.forEach(button => {
+
+button.addEventListener('click',cartClick);
+
+});
+
+function cartClick(){
+let button =this;
+button.classList.add('clicked');
+}
+
+
+
+});
